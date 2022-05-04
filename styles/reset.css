@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-size: var(--size-body, 18px);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--type-name); 
+  font-weight: var(--weight-medium);
+}
+
+h1 {
+  font-size: max(2.2rem, min(4rem, 6vw));
+  /* font-size: 4rem; */
+  font-weight: var(--weight-bold);
+  color: var(--almost-black);
+  margin-bottom: 0;
+}
+
+p {
+  font-weight: var(--weight-medium);
+  color: var(--medium-grey);
+  line-height: 1.5;
+}
+
+button {
+  border-radius: 12px;
+  background-color: var(--almost-black);
+  color: var(--almost-white);
+  padding: .9rem 1.8rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 300ms all ease-in-out;
+}
+
+button:hover {
+  border-color: var(--almost-black);
+  color: var(--almost-black);
+  background-color: transparent;
+}
